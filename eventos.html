@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eventos y fiestas en Barcelona · Agenda KuKo Nights</title>
+<meta name="description" content="La agenda de KuKo Nights: Ladies Night, tardeos de reggaetón y noches latinas en Barcelona y El Prat. Mira todos los eventos, entra en lista y compra tus entradas." />
+<meta name="theme-color" content="#1B0B2E" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+<link rel="apple-touch-icon" href="assets/favicon-180.png" />
+<link rel="canonical" href="https://www.kukonights.com/eventos.html" />
+<link rel="alternate" hreflang="es" href="https://www.kukonights.com/eventos.html" />
+<link rel="alternate" hreflang="en" href="https://www.kukonights.com/eventos-en.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.kukonights.com/eventos.html" />
+<meta property="og:title" content="Eventos y fiestas en Barcelona · KuKo Nights" />
+<meta property="og:description" content="Ladies Night, tardeos y noches latinas en Barcelona y El Prat. Toda la agenda y entradas." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.kukonights.com/assets/og.jpg" />
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+ {"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.kukonights.com/"},
+ {"@type":"ListItem","position":2,"name":"Eventos","item":"https://www.kukonights.com/eventos.html"}
+]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/pages.css" />
+<link rel="stylesheet" href="css/aurora.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"><span class="ab a1"></span><span class="ab a2"></span><span class="ab a3"></span><span class="ab a4"></span><span class="ab a5"></span><span class="ab a6"></span></div>
+  <header>
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="" aria-hidden="true" /><b>Ku<i>Ko</i> <span>Nights</span></b></a>
+    <div class="hnav">
+      <a class="langsw" href="eventos-en.html" hreflang="en">EN</a>
+      <a class="back" href="index.html">← Inicio</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap venue">
+      <nav class="crumb"><a href="index.html">Inicio</a> › <strong>Eventos</strong></nav>
+
+      <div class="venue-hero">
+        <div class="venue-intro">
+          <div class="kick">La agenda</div>
+          <h1>Eventos y fiestas en <span class="script" style="font-size:.9em">Barcelona</span></h1>
+          <div class="zone">Noches latinas, Ladies Night y tardeos · Barcelona y El Prat</div>
+          <p class="lead">En KuKo no paramos. Organizamos <strong>noches latinas</strong>, <strong>Ladies Night</strong> y <strong>tardeos</strong> en Barcelona y El Prat de Llobregat, y te traemos la mejor agenda de la ciudad. Aquí lo ves todo de un vistazo y te apuntas con un clic. Tú elige la fecha, que del plan nos encargamos nosotros.</p>
+
+          <div class="facts">
+            <div class="fact"><span>Zonas</span><b>Barcelona y El Prat</b></div>
+            <div class="fact"><span>Noches</span><b>Ladies Night · Tardeo · Latina</b></div>
+            <div class="fact"><span>Entradas</span><b>En Fourvenues</b></div>
+            <div class="fact"><span>Edad</span><b>Solo +21</b></div>
+            <div class="fact"><span>Taxi</span><b>En El Prat (KuKo)</b></div>
+            <div class="fact"><span>Info</span><b>Por WhatsApp</b></div>
+          </div>
+
+          <div class="tags"><span>Ladies Night</span><span>Tardeo</span><span>Reggaetón</span><span>Bachata</span></div>
+        </div>
+
+        <aside class="venue-side">
+          <div class="venue-photo"><img src="assets/events/e3.jpg" alt="Noche KuKo en directo" /></div>
+          <div class="action-card">
+            <div class="tag">La agenda · Entradas</div>
+            <a class="btn pink" href="https://site.fourvenues.com/es/elwaachi" target="_blank" rel="noopener">Ver agenda y entradas</a>
+            <a class="btn" href="https://wa.me/34697630378?text=Hola%20KuKo%2C%20quiero%20info%20de%20los%20pr%C3%B3ximos%20eventos." target="_blank" rel="noopener">Info por WhatsApp</a>
+            <p class="ac-note">Para eventos en El Prat, organizamos taxi.</p>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Eventos en vivo desde Fourvenues (vía /api/events) -->
+      <section class="vsec" id="fv-upcoming-sec">
+        <h2>Próximos eventos</h2>
+        <p class="sub">Lo que se mueve en Barcelona y El Prat. Aparta tu sitio con tiempo.</p>
+        <div class="evgrid" id="fv-upcoming"></div>
+      </section>
+      <section class="vsec" id="fv-past-sec">
+        <h2>Eventos pasados</h2>
+        <div class="evgrid" id="fv-past"></div>
+      </section>
+
+      <section class="vsec">
+        <h2>Nuestras noches</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="sn">LadyNight</div>
+            <h3>Ladies Night</h3>
+            <p>Nuestra noche estrella, con las mujeres como protagonistas: trato, cuidado y buen ambiente de principio a fin. Ellos entran con consumición. Música latina y los temazos del momento.</p>
+          </article>
+          <article class="card">
+            <div class="sn">Tardeo</div>
+            <h3>Tardeo</h3>
+            <p>Reggaetón old school, de día. Como el “Tardeo El Waachi” en Terminal Zero: para empezar pronto, sin prisa y con buen rollo desde temprano.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="vsec">
+        <h2>Dónde se vive</h2>
+        <p class="sub">Nix Barcelona y Terminal Zero son nuestros dos locales de referencia, pero no los únicos: como RRPP tenemos acceso a muchas más discotecas y eventos en Barcelona. Así, poco a poco, siempre tienes dónde elegir cada finde.</p>
+        <div class="cards">
+          <article class="card"><h3><a href="discotecas-nix.html">Nix Barcelona</a></h3><p>En el Eixample, cerca del metro Rocafort. Noche latina los sábados.</p></article>
+          <article class="card"><h3><a href="discotecas-terminal-zero.html">Terminal Zero</a></h3><p>En El Prat de Llobregat. Tardeos y noches latinas, con taxi KuKo en los eventos.</p></article>
+          <article class="card">
+            <div class="sn">+ Agenda</div>
+            <h3>Y muchas discotecas más</h3>
+            <p>Estos dos son nuestra casa, pero trabajamos con las mejores salas de la ciudad. Mira toda la agenda de eventos en Barcelona y elige dónde sales esta semana.</p>
+            <div style="margin-top:16px"><a class="btn pink" href="https://site.fourvenues.com/es/elwaachi" target="_blank" rel="noopener">Ver todos los eventos y locales</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="vsec closer-cta">
+        <h2>¿Te vienes a tu próxima noche?</h2>
+        <p>Mira la agenda, elige tu evento y asegúrate la entrada. Si tienes cualquier duda, te la resolvemos al momento por WhatsApp.</p>
+        <div class="cta">
+          <a class="btn pink" href="https://site.fourvenues.com/es/elwaachi" target="_blank" rel="noopener">Ver agenda y entradas</a>
+          <a class="btn" href="https://wa.me/34697630378?text=Hola%20KuKo%2C%20quiero%20info%20de%20los%20pr%C3%B3ximos%20eventos." target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer><div class="wrap">© 2026 KuKo Nights · <a href="index.html">Inicio</a> · <a href="https://instagram.com/kukonights" target="_blank" rel="noopener">@kukonights</a> · Solo +21</div></footer>
+  <script src="js/events.js"></script>
+  <script src="js/consent.js"></script>
+</body>
+</html>

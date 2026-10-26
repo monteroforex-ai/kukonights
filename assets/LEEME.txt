@@ -1,0 +1,28 @@
+ASSETS DE KUKO NIGHTS  (súbelos a esta carpeta /assets)
+========================================================
+Mientras falten, la web muestra marcadores (placeholders) con etiqueta.
+
+LOGO (ya está)
+  logo.png            ← la "K" con líneas (ya la puse; en la web se ve en blanco)
+
+FLYERS de eventos  → carpeta assets/events/
+  nix-26.png          ← flyer Ladies Night (Nix, 26 sep)
+  tz-03.png           ← flyer evento Terminal Zero (3 oct)
+
+GALERÍA eventos pasados → carpeta assets/events/
+  g1.jpg … g10.jpg    ← fotos (verticales quedan mejor, 3:4)
+  v1.mp4              ← un vídeo corto (muted) para la galería
+
+DISCOTECAS → assets/venues/
+  venues/nix/1.jpg  venues/nix/2.jpg
+  venues/terminal-zero/1.jpg
+
+OPCIONALES
+  og.jpg              ← imagen 1200x630 para vista previa al compartir
+  ambient.mp3         ← loop de ambiente para el botón "Sonido" (opcional)
+
+DATOS a editar (sin tocar diseño):
+  data/events.js · data/venues.js · data/formats.js · data/gallery.js
+
+CONFIRMACIONES pendientes (ver DECISIONS.md):
+  Nix 92/94 · "gratis hasta 1:30" solo ellas? · dress code · edad +18/+21 · nombre evento 3-oct
