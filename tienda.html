@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>KuKo Atelier · Moda para salir en Barcelona | Próximamente</title>
+<meta name="description" content="KuKo Atelier, la línea de moda de KuKo Nights. Elegancia con actitud, hecha para la noche. Apúntate a la lista de espera del primer drop." />
+<meta name="theme-color" content="#ffffff" />
+<link rel="icon" href="favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+<link rel="apple-touch-icon" href="assets/favicon-180.png" />
+<link rel="canonical" href="https://www.kukonights.com/tienda.html" />
+<link rel="alternate" hreflang="es" href="https://www.kukonights.com/tienda.html" />
+<link rel="alternate" hreflang="en" href="https://www.kukonights.com/tienda-en.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.kukonights.com/tienda.html" />
+<meta property="og:title" content="KuKo Atelier · Moda para salir en Barcelona" />
+<meta property="og:description" content="La línea de moda de KuKo Nights. Hecha para la noche. Lista de espera del primer drop abierta." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.kukonights.com/assets/og.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/store.css" />
+<link rel="stylesheet" href="css/aurora.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"><span class="ab a1"></span><span class="ab a2"></span><span class="ab a3"></span><span class="ab a4"></span><span class="ab a5"></span><span class="ab a6"></span></div>
+  <div class="spot" id="spot" aria-hidden="true"></div>
+
+  <header class="shead">
+    <div class="wrap">
+      <a class="sbrand" href="tienda.html"><img src="assets/logo.png" alt="" aria-hidden="true" /><b>Ku<i>Ko</i><span>Atelier</span></b></a>
+      <div class="right">
+        <a class="exit" href="tienda-en.html" hreflang="en">EN</a>
+        <a class="exit" href="index.html">KuKo Nights ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="shero">
+    <div class="wrap">
+      <div class="eyebrow">Edición limitada · Primer drop</div>
+      <h1 class="serif">La noche también se <span class="script" style="font-size:1.15em">viste</span>.</h1>
+      <p class="lead">Se viene la primera colección de KuKo. Piezas de edición limitada, hechas para brillar cuando sales. Serán pocas unidades y la lista entra primero: acceso anticipado, antes de que se agote. Si no estás dentro, te enteras cuando ya no quede.</p>
+      <div class="acts">
+        <a class="lbtn" href="https://wa.me/34697630378?text=Hola%20KuKo%2C%20quiero%20acceso%20prioritario%20al%20primer%20drop%20de%20ropa." target="_blank" rel="noopener">Quiero acceso prioritario</a>
+        <a class="plain" href="#atelier">Saber más</a>
+      </div>
+      <div class="hypenote">Plazas limitadas · Solo la lista entra al primer drop</div>
+      <div class="scrollcue">↓ KuKo Atelier</div>
+    </div>
+  </main>
+
+  <section class="editorial" id="atelier">
+    <div class="wrap">
+      <div class="frame"><img src="assets/events/e6.jpg" alt="La noche KuKo" loading="lazy" /></div>
+      <div class="cap">
+        <div class="eyebrow">Lo que viene</div>
+        <h2 class="serif">Del evento a tu armario</h2>
+        <p>Lo que se vive en nuestras noches, ahora para llevar. Colecciones cortas y numeradas, que no verás en todas partes. Cuando salga, volará. Entra en la lista y sé de las primeras en llevarlo.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="sfoot">
+    <div class="wrap">
+      <div class="logo serif">Ku<i style="font-style:normal">Ko</i></div>
+      <nav>
+        <a href="index.html">KuKo Nights</a>
+        <a href="colabora.html">Trabaja con nosotros</a>
+        <a href="https://instagram.com/kukonights" target="_blank" rel="noopener">Instagram</a>
+        <a href="legal.html">Aviso legal</a>
+      </nav>
+      <div class="cr">© 2026 KuKo · Atelier</div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var fine = matchMedia("(pointer:fine)").matches;
+      var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (fine && !reduce) {
+        addEventListener("pointermove", function (e) {
+          document.documentElement.style.setProperty("--mx", e.clientX + "px");
+          document.documentElement.style.setProperty("--my", e.clientY + "px");
+        });
+      }
+    })();
+  </script>
+  <script src="js/consent.js"></script>
+</body>
+</html>

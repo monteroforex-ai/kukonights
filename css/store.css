@@ -1,0 +1,77 @@
+/* ============================================================
+   KuKo · Atelier (css/store.css)
+   Landing minimalista y sofisticada (referencia Louis Vuitton):
+   mucho aire, serif refinada, composición centrada, casi sin
+   elementos. Sobre el fondo inmersivo de KuKo (aurora + cursor),
+   para coherencia con el resto de la web.
+   ============================================================ */
+:root{
+  --ink:#16140f; --cream:#f7f4ee; --paper:#ffffff; --muted:#8c8578;
+  --line:rgba(22,20,15,.16); --line-2:rgba(22,20,15,.32);
+  --serif:"Poppins",system-ui,sans-serif;
+  --sans:"Poppins",system-ui,sans-serif; --script:"Great Vibes",cursive;
+  --shadow:0 30px 80px -42px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.65;font-weight:300;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+::selection{background:var(--ink);color:#fff}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 clamp(20px,5vw,56px)}
+.serif{font-family:var(--serif)}
+.script{font-family:var(--script)}
+
+/* Cursor inmersivo (igual que la home) */
+.spot{position:fixed;inset:0;z-index:-1;pointer-events:none;transition:background .12s ease;
+  background:radial-gradient(560px circle at var(--mx,50vw) var(--my,22vh),rgba(0,0,0,.14),rgba(0,0,0,.06) 42%,transparent 66%)}
+
+/* Cabecera mínima */
+.shead{position:absolute;top:0;left:0;right:0;z-index:20}
+.shead .wrap{display:flex;align-items:center;justify-content:space-between;height:84px}
+.sbrand{display:flex;align-items:center;gap:12px}
+.sbrand img{width:40px;height:40px}
+.sbrand b{font-weight:500;font-size:22px;letter-spacing:.03em}
+.sbrand b i{font-style:normal}
+.sbrand b span{display:block;font-weight:300;font-size:10px;letter-spacing:.42em;text-transform:uppercase;color:var(--muted);margin-top:-2px}
+.shead .right{display:flex;gap:20px;align-items:center}
+.shead a.exit{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);opacity:.75;transition:opacity .2s}
+.shead a.exit:hover{opacity:1}
+
+/* Botón refinado */
+.lbtn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;font-weight:500;
+  padding:17px 36px;border:1px solid var(--ink);background:var(--ink);color:#fff;transition:.3s;cursor:pointer}
+.lbtn:hover{background:transparent;color:var(--ink)}
+.lbtn.ghost{background:transparent;color:var(--ink)}
+.lbtn.ghost:hover{background:var(--ink);color:#fff}
+
+/* Hero centrado */
+.shero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 0 90px}
+.shero .eyebrow{font-size:11px;letter-spacing:.4em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.shero h1{font-family:var(--serif);font-weight:700;font-size:clamp(40px,8vw,84px);line-height:1.02;letter-spacing:-.03em;margin:22px 0 0;max-width:15ch}
+.shero h1 .script{font-weight:400;letter-spacing:0}
+.shero .lead{max-width:44ch;margin:26px auto 0;font-size:clamp(15px,1.7vw,18px);font-weight:300;color:#4a463d}
+.shero .acts{margin-top:40px;display:flex;gap:16px;flex-wrap:wrap;justify-content:center;align-items:center}
+.shero .acts a.plain{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);border-bottom:1px solid var(--line-2);padding-bottom:4px;transition:border-color .2s}
+.shero .acts a.plain:hover{border-color:var(--ink)}
+.shero .hypenote{margin-top:20px;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.scrollcue{margin-top:52px;font-size:10px;letter-spacing:.34em;text-transform:uppercase;color:var(--muted)}
+
+/* Editorial (una imagen, mucho aire) */
+.editorial{padding:clamp(40px,8vw,110px) 0}
+.editorial .frame{position:relative;max-width:980px;margin:0 auto;aspect-ratio:16/10;overflow:hidden;box-shadow:var(--shadow)}
+.editorial .frame img{width:100%;height:100%;object-fit:cover}
+.editorial .cap{text-align:center;margin-top:30px}
+.editorial .cap .eyebrow{font-size:11px;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.editorial .cap h2{font-family:var(--serif);font-weight:700;font-size:clamp(26px,4vw,42px);line-height:1.1;letter-spacing:-.02em;margin-top:12px}
+.editorial .cap p{max-width:48ch;margin:16px auto 0;color:#4a463d;font-size:16px}
+
+/* Pie mínimo */
+.sfoot{border-top:1px solid var(--line);padding:44px 0;text-align:center}
+.sfoot .logo{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em}
+.sfoot nav{margin:18px 0;display:flex;gap:22px;justify-content:center;flex-wrap:wrap}
+.sfoot nav a{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);transition:color .2s}
+.sfoot nav a:hover{color:var(--ink)}
+.sfoot .cr{font-size:11px;letter-spacing:.14em;color:var(--muted)}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
