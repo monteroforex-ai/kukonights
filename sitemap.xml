@@ -54,5 +54,18 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.kukonights.com/discotecas-terminal-zero-en.html"/>
     <lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.kukonights.com/colabora.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.kukonights.com/colabora.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kukonights.com/colabora-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kukonights.com/colabora.html"/>
+    <lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.kukonights.com/colabora-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.kukonights.com/colabora.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kukonights.com/colabora-en.html"/>
+    <lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.6</priority>
+  </url>
   <url><loc>https://www.kukonights.com/legal.html</loc><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>

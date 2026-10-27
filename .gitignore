@@ -3,3 +3,7 @@ node_modules/
 .env.local
 .env*.local
 .vercel
+
+# Tienda: pendiente de fotos, no publicar todavía
+tienda.html
+css/store.css

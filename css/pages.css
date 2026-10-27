@@ -111,4 +111,20 @@ footer a{color:var(--ink)}
   .venue-photo{aspect-ratio:16/10}
   .facts{grid-template-columns:repeat(2,1fr)}
 }
+/* ===== Colabora / formulario ===== */
+.perks{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px}
+@media(max-width:600px){.perks{grid-template-columns:1fr}}
+.perk{border:1px solid var(--line);border-radius:16px;padding:18px 20px;background:#fff;box-shadow:var(--shadow-sm)}
+.perk h3{font-size:16px;font-weight:700}
+.perk p{color:#4a4a52;font-size:14px;margin-top:6px;font-weight:300;line-height:1.6}
+.form{display:grid;gap:16px;max-width:580px;margin-top:10px}
+.form .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:560px){.form .row{grid-template-columns:1fr}}
+.form .field{display:flex;flex-direction:column;gap:6px}
+.form label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.form input,.form textarea{font-family:inherit;font-size:15px;color:var(--ink);background:#fff;border:1px solid var(--line-2);border-radius:12px;padding:13px 15px;transition:border-color .2s}
+.form input:focus,.form textarea:focus{outline:none;border-color:var(--ink)}
+.form textarea{min-height:110px;resize:vertical}
+.form button{justify-content:center}
+.formnote{font-size:12.5px;color:var(--muted);font-weight:300;margin-top:2px}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
